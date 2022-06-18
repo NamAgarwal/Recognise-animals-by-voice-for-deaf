@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <title>Lets recognise animals</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
+    </head>'
+    <body>
+        <div class="col-xs-12 header_div text-center">
+            <h2>Sound Controlled animals</h2>
+            <br>
+            <p>Note : play different sounds like barking, meowing, mooing or roaring</p>
+        </div>
+        <div class="main_div">
+            <center>
+            <br>
+            <br>
+            <button class="btn btn-primary" id="button" onclick="startClassification();" style="margin-top: 15px;">START</button>
+            <h4 id="result_count"></h4>
+            <h3 id="result_label">I can hear - </h3>
+            <br>
+            <img id="image" src="listen.gif" width="300" height="300">
+        </center>
+        </div>
+        <br>
+        <div class="copy_right_footer">
+            Developed By Naman
+        </div>
+        <script src="main.js"></script>
+    </body>'
+</html>

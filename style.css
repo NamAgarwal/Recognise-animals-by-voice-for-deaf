@@ -1,0 +1,30 @@
+body{
+    background-color: lightgrey;
+}
+.header_div{
+    background-color: darkgrey;
+    color: ghostwhite;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+.copy_right_footer{
+    position: fixed;
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+bottom: 0;
+width: 100%;
+font-size: 16px;
+background-color: lightgoldenrodyellow;
+line-height: 3;
+text-align: center;
+text-shadow: 5px 5px 5px gray;
+}
+.header_div p{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+.main_div{
+    margin-top: 10px;
+    letter-spacing: 4px;
+}
